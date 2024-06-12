@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.gesture-icon {
+    font-size: 30px;
+}
+
+#webcam-view {
+    width: 100%;
+    height: 300px;
+    background-color: #ddd;
+}
+
+button {
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+#captured-image {
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+}

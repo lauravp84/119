@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>APP WEB DE GESTOS COM AS MÃOS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nome do Aplicativo <span class="gesture-icon">👌</span></h1>
+    </header>
+
+    <div id="gesture-icons">
+        <ul>
+            <li>🫶</li>
+            <li>👍</li>
+            <li>✌️</li>
+            <li>🤙</li>
+        </ul>
+    </div>
+
+    <div id="webcam-view"></div>
+
+    <button onclick="captureImage()">Capturar Imagem</button>
+
+    <div id="gesture-name"></div>
+    <div id="gesture-icon"></div>
+
+    <div id="captured-image"></div>
+
+    <button onclick="identifyImage()">Identificar Imagem</button>
+
+    <script src="webcam.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
